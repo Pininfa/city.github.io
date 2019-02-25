@@ -1,0 +1,98 @@
+
+ul{
+    list-style: none;
+}
+#formOne{
+    flex-direction: column;
+    display: flex;
+}
+#formTwo{
+    flex-direction: column;
+    display: flex;
+}
+#formSity{
+    display: flex;
+    justify-content: space-between;
+}
+#TitleGame{
+    display: flex;
+    justify-content: center;
+}
+#startGame{
+    cursor:pointer;
+    padding: 5px;
+    display: none;
+    border: 1px solid black;
+}
+#marginGame{
+    display: flex;
+    flex-direction:row;
+    padding: 25px;
+    border:1px solid black;
+    justify-content:space-between;
+}
+#DivSG{
+    display: inline-block;
+}
+nav{
+    background: #AAF0D1;
+    padding:10px 0 10px 0;
+}
+#menu{
+    position: relative;
+    display:flex;
+    align-items:flex-start;
+    justify-content: flex-end;
+}
+
+#menu>li:first-child{
+    margin-right:25px;
+}
+
+#menu>li{
+    border:solid black 1px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    background: #F5F5F5;
+    cursor: pointer;
+    color:red;
+}
+
+#menu ul{
+    display:none;
+}
+
+#menu>li:hover ul{  
+    transition: 1s;
+    margin: 10px 0 0 0;
+    background: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    
+}
+
+#menu>li ul li:hover{    
+   font-size: 25px;
+    
+}
+
+InFocus:focus{
+    border: 1px solid #29B0D9;
+}
+#nextMove{
+    display: flex;
+    justify-content: center;
+}
+
+#nextMove p{
+    cursor: pointer;
+    border:1px solid black;
+    padding: 10px;
+}
+span{
+    display: flex;
+    justify-content: center;
+}
